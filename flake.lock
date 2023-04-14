@@ -1,0 +1,55 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1681358109,
+        "narHash": "sha256-eKyxW4OohHQx9Urxi7TQlFBTDWII+F+x2hklDOQPB50=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "96ba1c52e54e74c3197f4d43026b3f3d92e83ff9",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "patterns_src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1680777226,
+        "narHash": "sha256-ERKHuMYdr98iQ7AsL9JJERQVjmb4p+VdTgwQehfaTTM=",
+        "owner": "WerWolv",
+        "repo": "ImHex-Patterns",
+        "rev": "2ffa4e0161aba9aeab87bc2baf6d04821e3a0ca4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "WerWolv",
+        "repo": "ImHex-Patterns",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "patterns_src": "patterns_src",
+        "source": "source"
+      }
+    },
+    "source": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-vg2KJ5+SSBAFuOP0PvXCwUmfhgoP46UqQBKNfegdzKE=",
+        "type": "tarball",
+        "url": "https://github.com/WerWolv/ImHex/releases/download/v1.28.0/Full.Sources.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/WerWolv/ImHex/releases/download/v1.28.0/Full.Sources.tar.gz"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
